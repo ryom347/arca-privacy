@@ -1,56 +1,109 @@
-# Arca Privacy Policy
-
-Last updated: October 4, 2026  
-Developer: [Developer name displayed on Google Play]
-
-This policy explains how the Android application “Arca” handles information.
-
-## 1. Information Arca Handles
-
-Arca accesses photos and videos you have authorized it to access, along with associated information such as file names, capture dates, and file sizes, to provide backup, lightweight copy creation, viewing, and management features. Original files may contain metadata, including the location where a photo or video was taken.
-
-Arca also stores connection information for your chosen backup destination, including its address, shared folder, username, and password, as well as management information such as synchronization history, settings, and favorites.
-
-## 2. Storage and Data Transmission
-
-Original photos and videos, along with information needed to manage backups, are transferred to the drive or SMB server you configure. Lightweight copies, thumbnails, settings, and other local management information are stored on your device.
-
-Arca does not send your photos or videos to servers operated by the developer, and the developer does not collect your photos or videos. Arca does not use a developer-provided cloud service for backups.
-
-## 3. Permissions
-
-Photo and video permissions are used for backup and viewing. Camera access is used for the photography feature. Network and Wi-Fi information are used to check connectivity and perform synchronization. Notifications and background execution capabilities support synchronization and communicate its progress and results.
-
-Owner authentication uses Android’s authentication features. Arca does not access or store fingerprint data or facial biometric authentication data.
-
-## 4. Sharing and Third-Party Services
-
-When you choose to share a photo or video or open it in another application, Arca provides the selected content to the application you specify. Subsequent handling is governed by that application or service’s policies.
-
-Arca does not include advertising or usage analytics SDKs. Your information is not sold.
-
-## 5. Information Protection
-
-Backup destination connection settings are encrypted on your device using Android Keystore.
-
-The Locked Album restricts access to viewing copies managed by Arca on your device. It does not encrypt or protect originals on your backup drive or copies stored elsewhere.
-
-## 6. Retention and Deletion
-
-Information is retained for as long as necessary to provide the app’s features and maintain synchronization records. You can delete settings and local copies through the app’s available features or Android settings.
-
-Clearing the app’s storage or uninstalling it removes settings, management records, and other data stored in the app’s private storage. However, photos and videos in shared device storage, originals on your backup drive, and copies shared with other applications are not automatically deleted. These must be deleted from their respective locations.
-
-To free up device storage, original files are removed only after the backup and lightweight copies have been verified and any required confirmations have been completed.
-
-## 7. Contact
-
-For questions about this policy, please contact:
-
-Email: [Public contact email address]
-
-Information you provide when contacting the developer is used to respond to your inquiry and retained for as long as necessary to handle it.
-
-## 8. Changes to This Policy
-
-This page will be updated if the app’s features or information handling practices change. Significant changes will also be communicated within the app where necessary.
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Arcaのプライバシーポリシー / Arca Privacy Policy">
+  <meta name="color-scheme" content="light">
+  <title>Arca — Privacy Policy / プライバシーポリシー</title>
+  <style>
+    :root{color-scheme:light;--ink:#102236;--muted:#566579;--line:#dbe3eb;--accent:#196958}
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth;scroll-padding-top:24px}
+    body{margin:0;background:#f4f7fa;color:var(--ink);font:16px/1.85 system-ui,-apple-system,"Segoe UI",sans-serif;overflow-wrap:anywhere}
+    header,main,footer{max-width:860px;margin:auto;padding:32px 24px}
+    header{padding-top:48px;padding-bottom:24px}
+    .brand{margin:0;font-size:38px;letter-spacing:-1px;font-weight:750}
+    .subtitle{color:var(--muted);margin:4px 0 20px}
+    nav{display:flex;flex-wrap:wrap;gap:10px}
+    nav a{color:var(--ink);text-decoration:none;background:#fff;border:1px solid var(--line);border-radius:999px;padding:8px 20px}
+    nav a:hover{border-color:var(--accent);color:var(--accent)}
+    a:focus-visible{outline:3px solid var(--accent);outline-offset:4px}
+    main{padding-top:0}
+    article{background:#fff;border:1px solid var(--line);border-radius:24px;padding:36px;margin-bottom:28px}
+    h1{font-size:26px;line-height:1.45;margin:0 0 16px;letter-spacing:-.4px}
+    h2{font-size:19px;line-height:1.5;margin:30px 0 10px}
+    p{margin:0 0 14px}
+    .meta{color:var(--muted);font-size:14px;border-bottom:1px solid var(--line);padding-bottom:20px;margin-bottom:24px}
+    .placeholder{background:#fff2cf;border-radius:4px;padding:2px 5px}
+    footer{font-size:13px;color:var(--muted);padding-top:0}
+    @media(max-width:560px){header,main,footer{padding-left:16px;padding-right:16px}header{padding-top:28px}article{padding:24px 20px;border-radius:20px}h1{font-size:23px}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+    @media print{body{background:white}header,main,footer{max-width:none;padding:0}nav{display:none}article{border:0;padding:20px 0}.placeholder{background:none}}
+  </style>
+</head>
+<body>
+  <header>
+    <p class="brand">Arca</p>
+    <p class="subtitle">プライバシーポリシー / Privacy Policy</p>
+    <nav aria-label="Language / 言語">
+      <a href="#japanese" lang="ja">日本語</a>
+      <a href="#english" lang="en">English</a>
+    </nav>
+  </header>
+  <main>
+    <!-- 公開前に、開発者名と問い合わせメールアドレスを日本語・英語の両方で置き換えてください。 -->
+    <article id="japanese" lang="ja" aria-labelledby="ja-title">
+      <h1 id="ja-title">Arca プライバシーポリシー</h1>
+      <p class="meta">最終更新日：<time datetime="2026-10-04">2026年10月4日</time><br>開発者：<span class="placeholder">［Google Playに掲載する開発者名］</span></p>
+      <p>本ポリシーは、Androidアプリ「Arca」における情報の取り扱いについて説明します。</p>
+      <h2>1. アプリが取り扱う情報</h2>
+      <p>Arcaは、写真・動画のバックアップ、軽量版の作成、閲覧および管理のため、ユーザーがアクセスを許可した写真・動画と、そのファイル名、撮影日時、サイズなどの付随情報を取り扱います。原本には、撮影場所などのメタデータが含まれる場合があります。</p>
+      <p>また、保存先への接続に必要なアドレス、共有フォルダー、ユーザー名、パスワード、および同期履歴、設定、お気に入りなどの管理情報を保存します。</p>
+      <h2>2. 保存先と外部への送信</h2>
+      <p>写真・動画の原本およびバックアップ管理に必要な情報は、ユーザーが設定したドライブやSMBサーバーへ転送します。軽量版、サムネイル、設定などは端末内に保存します。</p>
+      <p>開発者が運営するサーバーへの写真・動画の送信や、開発者による写真・動画の収集は行いません。バックアップのために、開発者が提供するクラウドサービスを利用することもありません。</p>
+      <h2>3. 権限の利用</h2>
+      <p>写真・動画へのアクセス権限は、バックアップと閲覧に使用します。カメラは撮影機能に、ネットワークとWi-Fiの状態は接続確認と同期に、通知とバックグラウンド実行に関する機能は同期の進行と結果の案内に使用します。</p>
+      <p>本人認証はAndroidの認証機能を利用します。Arcaが指紋や顔の生体認証データを取得・保存することはありません。</p>
+      <h2>4. 共有と第三者サービス</h2>
+      <p>ユーザーが共有や外部アプリで開く操作を行った場合、選択した写真・動画を指定されたアプリへ渡します。その後の取り扱いは、共有先のサービスの方針に従います。</p>
+      <p>広告配信や利用状況解析のためのSDKは搭載していません。ユーザーの情報を販売することはありません。</p>
+      <h2>5. 情報の保護</h2>
+      <p>保存先の接続設定は、Android Keystoreを利用して端末内で暗号化して保存します。</p>
+      <p>ロックアルバムは、Arcaが管理する端末内の閲覧用コピーへのアクセスを制限する機能です。保存先ドライブの原本や、他の場所にあるコピーを暗号化・保護する機能ではありません。</p>
+      <h2>6. 保持と削除</h2>
+      <p>保存した情報は、機能の提供と同期状態の管理に必要な間、保持します。ユーザーはアプリの機能やAndroidの設定から、設定や端末内のコピーを削除できます。</p>
+      <p>Androidの「ストレージを消去」やアンインストールでは、アプリ専用領域の設定・管理情報などが削除されます。ただし、共有ストレージの写真・動画、保存先ドライブの原本、他アプリへ共有したコピーは自動では削除されません。これらは、それぞれの保存先で削除してください。</p>
+      <p>端末原本の容量整理は、バックアップと軽量版の検証、および必要な確認を経て行います。</p>
+      <h2>7. お問い合わせ</h2>
+      <p>本ポリシーに関するお問い合わせは、以下へご連絡ください。</p>
+      <p>メール：<span class="placeholder">［公開用の問い合わせメールアドレス］</span></p>
+      <p>お問い合わせで提供された情報は、対応のために利用し、対応上必要な期間保持します。</p>
+      <h2>8. ポリシーの変更</h2>
+      <p>機能や情報の取り扱いに変更がある場合、本ページを更新します。重要な変更は、必要に応じてアプリ内でも案内します。</p>
+    </article>
+    <article id="english" lang="en" aria-labelledby="en-title">
+      <h1 id="en-title">Arca Privacy Policy</h1>
+      <p class="meta">Last updated: <time datetime="2026-10-04">October 4, 2026</time><br>Developer: <span class="placeholder">[Developer name displayed on Google Play]</span></p>
+      <p>This policy explains how the Android application “Arca” handles information.</p>
+      <h2>1. Information Arca Handles</h2>
+      <p>Arca accesses photos and videos you have authorized it to access, along with associated information such as file names, capture dates, and file sizes, to provide backup, lightweight copy creation, viewing, and management features. Original files may contain metadata, including the location where a photo or video was taken.</p>
+      <p>Arca also stores connection information for your chosen backup destination, including its address, shared folder, username, and password, as well as management information such as synchronization history, settings, and favorites.</p>
+      <h2>2. Storage and Data Transmission</h2>
+      <p>Original photos and videos, along with information needed to manage backups, are transferred to the drive or SMB server you configure. Lightweight copies, thumbnails, settings, and other local management information are stored on your device.</p>
+      <p>Arca does not send your photos or videos to servers operated by the developer, and the developer does not collect your photos or videos. Arca does not use a developer-provided cloud service for backups.</p>
+      <h2>3. Permissions</h2>
+      <p>Photo and video permissions are used for backup and viewing. Camera access is used for the photography feature. Network and Wi-Fi information are used to check connectivity and perform synchronization. Notifications and background execution capabilities support synchronization and communicate its progress and results.</p>
+      <p>Owner authentication uses Android’s authentication features. Arca does not access or store fingerprint data or facial biometric authentication data.</p>
+      <h2>4. Sharing and Third-Party Services</h2>
+      <p>When you choose to share a photo or video or open it in another application, Arca provides the selected content to the application you specify. Subsequent handling is governed by that application or service’s policies.</p>
+      <p>Arca does not include advertising or usage analytics SDKs. Your information is not sold.</p>
+      <h2>5. Information Protection</h2>
+      <p>Backup destination connection settings are encrypted on your device using Android Keystore.</p>
+      <p>The Locked Album restricts access to viewing copies managed by Arca on your device. It does not encrypt or protect originals on your backup drive or copies stored elsewhere.</p>
+      <h2>6. Retention and Deletion</h2>
+      <p>Information is retained for as long as necessary to provide the app’s features and maintain synchronization records. You can delete settings and local copies through the app’s available features or Android settings.</p>
+      <p>Clearing the app’s storage or uninstalling it removes settings, management records, and other data stored in the app’s private storage. However, photos and videos in shared device storage, originals on your backup drive, and copies shared with other applications are not automatically deleted. These must be deleted from their respective locations.</p>
+      <p>To free up device storage, original files are removed only after the backup and lightweight copies have been verified and any required confirmations have been completed.</p>
+      <h2>7. Contact</h2>
+      <p>For questions about this policy, please contact:</p>
+      <p>Email: <span class="placeholder">[Public contact email address]</span></p>
+      <p>Information you provide when contacting the developer is used to respond to your inquiry and retained for as long as necessary to handle it.</p>
+      <h2>8. Changes to This Policy</h2>
+      <p>This page will be updated if the app’s features or information handling practices change. Significant changes will also be communicated within the app where necessary.</p>
+    </article>
+  </main>
+  <footer><p>Arca · Privacy Policy / プライバシーポリシー</p></footer>
+</body>
+</html>
